@@ -1,0 +1,54 @@
+
+
+#acontainer{
+    display: flex;
+    color: #000000;
+    max-width: 1276px;
+    width: 100%;
+    margin: auto;
+}
+#acategory{
+    color: #000000;
+    line-height: 0;
+    width: 100%;
+}
+#acategory>img{
+    width: 100%;
+}
+#acategory>span{
+    cursor: pointer;
+    width: 80%;
+    font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    background-color: #FFF;
+    height: 56px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    bottom: 20%;
+    margin: auto;
+}
+#acategory>span>a{
+    color: #faa619;
+    text-decoration: none;
+    font-size: 16px;
+}
+.asep{
+    color: #929391;
+    margin-top: -55px;
+}
+@media only screen and (max-width: 992px) {
+    #acontainer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 70%;
+        margin: auto;
+        gap: 20px;
+    }
+}
+@media only screen and (max-width: 670px) {
+    #acontainer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
