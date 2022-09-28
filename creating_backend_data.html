@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>data creater</title>
+    <style>
+      div {
+        display: grid;
+        gap: 20px;
+      }
+      input {
+        margin: auto;
+        height: 23px;
+        width: 50%;
+      }
+      button {
+        margin: auto;
+        height: 50px;
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- main_img img1 img2 img2 price pname color brand size -->
+    <div>
+      <input type="number" name="ID" id="did" placeholder="enter id" />
+
+      <input
+        type="url"
+        name="mainimg"
+        id="dmainimg"
+        placeholder="enter img url orignal"
+      />
+      <input type="url" name="img1" id="dimg1" placeholder="enter img url 1" />
+      <input type="url" name="img2" id="dimg2" placeholder="enter img url 2" />
+      <input type="url" name="img3" id="dimg3" placeholder="enter img url 2" />
+
+      <input
+        type="text"
+        name="ID"
+        id="dname"
+        placeholder="enter product name"
+      />
+      <input type="number" name="price" id="dprice" placeholder="enter price" />
+      <input
+        type="text"
+        name="type"
+        id="dtype"
+        placeholder="enter type of product such as tshirt"
+      />
+      <input type="text" name="color" id="dcolor" placeholder="enter color" />
+
+      <input
+        type="text"
+        name="fabric"
+        id="dfabric"
+        placeholder="enter fabric"
+      />
+
+      <input type="text" name="brand" id="dbrand" placeholder="enter brand" />
+
+      <input type="text" name="size" id="dsize" placeholder="enter size" />
+
+      <input
+        type="text"
+        name="desc"
+        id="ddesc"
+        placeholder="enter descripiton if have"
+      />
+
+      <button id="dsubmit">submit to store data</button>
+    </div>
+  </body>
+</html>
+<!-- <script>
+  let submitdata = document.getElementById("dsubmit");
+  submitdata.addEventListener("click", () => {
+    colletdata();
+  });
+
+  const colletdata = async () => {
+    // console.log("hi")
+    let id = document.getElementById("did").value;
+
+    let mainimg = document.getElementById("dmainimg").value;
+    let img1 = document.getElementById("dimg1").value;
+    let img2 = document.getElementById("dimg2").value;
+    let img3 = document.getElementById("dimg3").value;
+
+    let name = document.getElementById("dname").value;
+
+    let price = document.getElementById("dprice").value;
+    let type = document.getElementById("dtype").value;
+    let color = document.getElementById("dcolor").value;
+
+    let fabric = document.getElementById("dfabric").value;
+
+    let brand = document.getElementById("dbrand").value;
+
+    let size = document.getElementById("dsize").value;
+
+    let desc = document.getElementById("ddesc").value;
+
+    console.log(desc);
+
+    let send_this_data = {
+      id,
+      mainimg,
+      img1,
+      img2,
+      img3,
+      name,
+      price,
+      type,
+      color,
+      fabric,
+      brand,
+      size,
+      desc,
+    };
+
+    try {
+      let res = await fetch("http://localhost:3000/posts", {
+        method: "POST",
+        body: JSON.stringify(send_this_data),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      let data = await res.json();
+    } catch (error) {
+      console.log(error);
+    }
+  };
+</script> -->
