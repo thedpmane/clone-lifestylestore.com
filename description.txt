@@ -1,0 +1,22 @@
+Please follow the following instructions for importing the footer section into your pages :
+
+
+1- copy and paste these links in your .html file inside the head tag :
+    
+    "<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/footer.css">"
+
+2- make a div with the id name "footer" at the last inside the body tag in your .html file.
+
+
+3- link your .html file with .js file and make the script tag type module.
+
+    for example => "<script type="module" src="your_file_name.js"></script>"
+
+
+4- copy and paste this code in the .js file :
+
+    "import { footer } from '../components/footer.js';
+
+    let footer_div = document.getElementById('footer');
+    footer_div.innerHTML = footer();"
