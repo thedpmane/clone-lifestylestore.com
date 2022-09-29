@@ -1,0 +1,113 @@
+#container {
+    width: 100%;
+    border: 1px solid black;
+    height: 3130px;
+    padding: 0 0 56px 0;
+    line-height: 20px;
+    margin: auto;
+}
+
+#mdiv {
+    border: 1px solid red;
+    height: 1754px;
+    width: 1270px;
+    margin: auto;
+    display: flex;
+}
+#name{
+    border: 1px solid blue;
+    height: 28px;
+    width: 1270px;
+    margin: auto;
+    margin-bottom: 10PX;
+}
+#sdiv1 {
+    height: 1797px;
+    border: 1px solid;
+    width: 840px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 550px);
+}
+
+#sdiv2 {
+    width: 425px;
+    height: 1797px;
+    border: 1px solid;
+}
+
+#sdiv1>div {
+    border: 1px solid purple;
+}
+
+#tax {
+    color: grey;
+    font-size: 14px;
+}
+
+#pr {
+    border: 1px solid;
+    margin-top: 20px;
+    height: 30px;
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#save {
+    border: 1px solid;
+    color: grey;
+    padding-left: 10px;
+}
+
+#free {
+    color: orange;
+    text-decoration: underline;
+    margin-top: 10px;
+    border: 1px solid;
+    padding-left: 10px;
+}
+
+#colo {
+    padding-left: 10px;
+    margin-top: 10px;
+    border: 1px solid;
+}
+
+#only8 {
+    color: red;
+    padding-left: 160px;
+}
+
+#size {
+    border: 1px solid;
+    height: 105px;
+}
+
+#size>div:nth-child(1) {
+    height: 25px;
+    margin-top: 10px;
+    border: 1px solid purple;
+    padding-left: 10px;
+}
+
+#guide {
+    padding-left: 310px;
+    text-decoration: underline;
+
+}
+
+#bt {
+    height: 60px;
+    border: 1px solid;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+#bt>button{
+    font-size: 14px;
+    height: 48px;
+    width: 58px;
+    margin-right: 5px;
+}
