@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/footer.css">
     <style>
         #navbar1{
             background-color: black;
@@ -14,6 +15,7 @@
             height: 40px;
             width: 100%;
             align-items: center;
+          
         }
         #a{
           
@@ -36,6 +38,13 @@
             display: flex;
             justify-content: space-around;
             background-color: aliceblue;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            margin-top: 10px;
+            width: 100%;
+            position: fixed;
+           margin-top: auto;
+           top:0;
+            /* position: fixed; */
         }
        
         #navbar2 p{
@@ -59,12 +68,14 @@
             background-color: rgba(223, 191, 8, 0.872);
             color: white;
             text-align: center;
+            align-items: center;
             height: 40px;
             align-items: center;
         }
         #navbar3 h4{
            text-align: center;
            align-items: center;
+           margin:auto;
         }
         #sildeimage{
             width: 90%;
@@ -80,49 +91,225 @@
             grid-template-columns: repeat(6,1fr);
             padding: 20px;
             margin: auto;
+            padding: 20px;
         }
         #brands div{
             padding: 10px;
         }
         #brands img{
-            width: 60%;
+            width: 100%;
             height: 150px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        }
+        #bigimage1{
+            display: flex;
+            flex-direction: column;
+            gap:40px;
+        }
+    
+        #shopcat{
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            padding: 20px;
+            margin: auto;
+            gap:10px;
+            border: 2px hsla(hue, saturation, lightness, alpha);
+        }
+        #shopcat img{
+            width: 100%;
+        }
+        #shopcat img:hover{
+            width: 90%;
+        }
+        #trending{
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            padding: 20px;
+            margin: auto;
+            
+        }
+        #trending img{
+            width: 85%;
+            border: 2px solid silver;
+            
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        }
+        #trending img:hover{
+            width: 80%;
+            border: 2px solid gold;
+            
+            box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        }
+        #toppicks{
+            display: flex;
+            gap:10px;
+        }
+        #toppicks img{
+            width: 32%;
+            padding: 5px;
+        }
+        #e{
+            margin-top: 50px;
+
+        }
+        #mls{
+            display: flex;
+            gap:5px;
+            margin: auto;
+        }
+        #mls img{
+            width: 35%;
+        }
+        #nct{
+            display: flex;
+            gap:5px;
+            margin: auto; 
+        }
+        #nct img{
+            width: 35%;
+        }
+        #tr{
+            display: flex;
+            gap:5px;
+            margin: auto;  
+        }
+        #tr img{
+            width: 35%;
+        }
+        #aw{
+            display: flex;
+            gap:5px;
+            margin: auto; 
+        }
+        #aw img{
+            width: 35%;
+        }
+        #deal{
+            display: flex;
+            gap:5px;
+            margin: auto; 
+        }
+        #deal img{
+            width: 80%;
+            height: 300px;
+        }
+        #mlb{
+            display: flex;
+            gap:10px;
+        }
+        #mlb img{
+            width: 50%;
+        }
+        #efy{
+            display: flex;
+            gap:15px;
+            margin: auto;
+            align-items: center;
+        }
+        #efy img{
+            width: 45%;
+            justify-content: space-between;
+        }
+        #tw{
+            display: flex;
+        }
+        #tw img{
+            width: 50%;
         }
 
     </style>
 </head>
 <body>
-    <div id="navbar1">
-        <div id="a">
-            <img src="" alt="">
-            <h4>Free shipping</h4>
-            <img src="" alt="">
-            <h4>Click & Connect</h4>
-            <img src="" alt="">
-            <h4>Return To Store</h4>
+    <div id="main">
+        <div id="navbar1">
+            <div id="a">
+                <img src="" alt="">
+                <h4>Free shipping</h4>
+                <img src="" alt="">
+                <h4>Click & Connect</h4>
+                <img src="" alt="">
+                <h4>Return To Store</h4>
+            </div>
+            <div id="b">
+            <h4>Download Our Apps |</h4>
+            <h4>Store Locator |</h4>
+            <h4>Help</h4>
+            </div>
         </div>
-        <div id="b">
-        <h4>Download Our Apps |</h4>
-        <h4>Store Locator |</h4>
-        <h4>Help</h4>
+        <div id="navbar2">
+            <img src="https://i1.lmsin.net/website_images/in/logos/logo-lifestyle.svg" alt="">
+            <button>Women</button>
+            <button>Mens</button>
+            <button>Kids</button>
+            <button>Shoes&Bag</button>
+            <button>Beauty</button>
+            <input type="search" placeholder="What are you looking for?">
+            <p>More |</p>
+            <p>Sign up/Sign In</p>
         </div>
+        <div id="navbar3">
+            <h4>Buy 1 Get 1 Free on Best of our Brands></h4>
+        </div>
+        
     </div>
-    <div id="navbar2">
-        <img src="https://i1.lmsin.net/website_images/in/logos/logo-lifestyle.svg" alt="">
-        <button>Women</button>
-        <button>Mens</button>
-        <button>Kids</button>
-        <button>Shoes&Bag</button>
-        <button>Beauty</button>
-        <input type="search" placeholder="What are you looking for?">
-        <p>More |</p>
-        <p>Sign up/Sign In</p>
-    </div>
-    <div id="navbar3">
-        <h4>Buy 1 Get 1 Free on Best of our Brands></h4>
-    </div>
+    
     <div id="slideimage"></div>
+    <h1>Big Brands. Big Discounts</h1>
     <div id="brands"></div>
+   
+    <div id="bigimage1"></div>
+    <h1>Shop By Category</h1>
+    <div id="shopcat"></div>
+
+    <h1>Top Trending Brands</h1>
+    <div id="trending"></div>
+
+    <h1>Flash Sale For Today </h1>
+    <div id="flashimg"></div>
+
+    <h1>Top Picks</h1>
+    <div id="toppicks"></div>
+
+
+    <div id="e"></div>
+
+
+    <h1>Most Loved Styles</h1>
+    <div id="mls"></div>
+
+    <h1>New, Cool & Trendy</h1>
+    <div id="nct"></div>
+
+
+    <h1>Highlights of the Day</h1>
+    <div id="highlights"></div>
+
+    <h1>Trendsetters</h1>
+    <div id="tr"></div>
+
+
+
+    <h1>Active Wardrobe</h1>
+    <div id="aw"></div>
+
+
+
+
+    <h1>Deal Corner</h1>
+    <div id="deal"></div>
+
+
+
+    <h1>Most loved brands</h1>
+    <div id="mlb"></div>
+
+    <h1>Essentials For You</h1>
+    <div id="efy"></div>
+
+
+    <!-- <h1>Trending Watches</h1>
+    <div id="tw"></div> -->
+    <div id="footer"></div>
 </body>
 </html>
-<script src="./scripts/mens.js" type="module"></script>
+<script type="module" src="./scripts/mens.js" ></script>
