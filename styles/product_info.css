@@ -1,0 +1,212 @@
+#container {
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 1500px;
+    padding: 0 0 56px 0;
+    line-height: 20px;
+    margin: auto;
+}
+
+#mdiv {
+    border: 1px solid red;
+    height: 1350px;
+    width: 1270px;
+    margin: auto;
+    display: flex;
+}
+#name{
+    border: 1px solid blue;
+    height: 28px;
+    width: 1270px;
+    margin: auto;
+    margin-bottom: 10PX;
+}
+#sdiv1 {
+    height: 1350px;
+    border: 1px solid;
+    width: 840px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 550px);
+}
+
+#sdiv2 {
+    width: 425px;
+    height: 1350px;
+    border: 1px solid;
+}
+
+#sdiv1>div {
+    border: 1px solid purple;
+}
+#div>div:hover{
+    font-size: 150%;
+}
+
+#tax {
+    color: grey;
+    font-size: 14px;
+}
+
+#pr {
+    /* border: 1px solid; */
+    margin-top: 20px;
+    height: 30px;
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#save {
+    /* border: 1px solid; */
+    color: grey;
+    padding-left: 10px;
+    
+}
+
+#free {
+    color: orange;
+    text-decoration: underline;
+    margin-top: 20px;
+    /* border: 1px solid; */
+    padding-left: 10px;
+}
+
+#colo {
+    padding-left: 10px;
+    margin-top: 10px;
+    /* border: 1px solid; */
+}
+
+#only8 {
+    color: red;
+    padding-left: 160px;
+}
+
+#size {
+    /* border: 1px solid; */
+    height: 105px;
+}
+
+#size>div:nth-child(1) {
+    height: 25px;
+    margin-top: 10px;
+    /* border: 1px solid purple; */
+    padding-left: 10px;
+}
+
+#guide {
+    padding-left: 310px;
+    text-decoration: underline;
+
+}
+
+#bt {
+    height: 60px;
+    /* border: 1px solid; */
+    margin-top: 10px;
+    padding-left: 10px;
+}
+#bt>button{
+    font-size: 14px;
+    height: 48px;
+    width: 58px;
+    margin-right: 5px;
+}
+#addto{
+    height:56px;
+    border: 1px solid;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+}
+#fev{
+    /* border: 1px solid; */
+    padding-top: 20px;
+    padding-left: 15px;
+}
+#fev>span{
+    padding-left: 180px;
+}
+#offer{
+    color:red;
+    /* border: 1px solid; */
+    padding-left: 10px;
+}
+#dd{
+    /* border: 1px solid; */
+    color: black;
+}
+#des{
+    /* border: 1px solid; */
+    margin-top: 50px;
+    padding-left: 8px;
+    line-height: 1.8;
+}
+#pin>input{
+    margin-top: 10px;
+    height: 48px;
+    width: 250px;
+    margin-left: 20px;
+    border: 2px solid orange;
+}
+#pin>button{
+    height: 53px;
+    width: 70px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+#overv{
+    margin-top: 30px;
+}
+#overv>li{
+    padding-left: 10px;
+}
+#alsolike{
+    width: 1270px;
+    border: 1px solid;
+    height: 550px;
+    margin: auto;
+}
+#alsolike>div:nth-child(1){
+    /* border: 1px solid; */
+    width: 1235px;
+    margin: auto;
+    padding: 40px 0 0 0;
+    font-size: 36px;
+}
+#alsolike>div:nth-child(2){
+    /* border: 1px solid; */
+    width: 1235px;
+    padding: 18px 0 0 0;
+    font-size: 14px;
+    margin: auto;
+    height: 394px;
+    margin-top: 20px;
+}
+#pro{
+    display: grid;
+    grid-template-columns: repeat(4, 297px);
+    grid-template-rows: repeat(1,);
+    gap: 15px;
+}
+#pro>div{
+    /* border: 1px solid; */
+}
+#pro>div>img{
+    width: 297px;
+ 
+}
+#pro>div>h3{
+    padding-left: 5px;
+}
+#pro>div>p{
+    margin-top: -10px;
+    padding-left: 5px;
+}
