@@ -1,0 +1,97 @@
+        body{
+            font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        }
+        #atopss1{
+            background-color: #FAA619;
+            color: #FFFFFF;
+            text-align: center;
+        }
+        #atopss1>h2{
+            padding: 10px 0px;
+            font-size: 16px;
+        }
+        #aslideshow1,
+        #avaluepicks{
+            width: 1276px;
+            margin: auto;
+            transition: 1s;
+        }
+        #avaluepickssection{
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            gap: 20px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid  #929391;
+            text-align: center;
+        }
+        #avaluepickssection>div>img{
+            width: 100%;
+        }
+        #avaluepickssection>div>h4{
+            margin-top: 0px;
+            font-size: 14px;
+        }
+        #aslideshow1>img,
+        #asparkle>img,
+        #abanner1>img,
+        #aslideshow2>img,
+        #abanner2>img{
+            width: 100%;
+        }
+        #asparkle,
+        #abanner1,
+        #abanner2,
+        #aslideshow2,
+        #atoppicks,
+        #afestive{
+            width: 1276px;
+            margin: auto;
+            margin-top: 50px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #929391;            
+        }
+        #atoppicks>div:last-child,
+        #afestive>div:last-child{
+            display: flex;
+            gap: 20px;
+        }
+        #atoppicks>div:last-child img,
+        #afestive>div:last-child img{
+            width: 100%;
+        }
+        @media only screen and (max-width: 992px) {            
+            #aslideshow1>img{
+                width: 100%;
+            }
+            #avaluepickssection{
+                grid-template-columns: repeat(3,1fr);            
+            }
+            #aslideshow1,
+            #avaluepicks,
+            #asparkle,
+            #abanner1,
+            #aslideshow2,
+            #abanner2,
+            #atoppicks,
+            #afestive{
+                width: 600px;
+            }
+        }
+        @media only screen and (max-width: 670px) {        
+            #aslideshow1>img{
+                width: 100%;
+            }
+            #avaluepickssection{
+                grid-template-columns: repeat(1,1fr);
+            }
+            #aslideshow1,
+            #avaluepicks,
+            #asparkle,
+            #abanner1,
+            #aslideshow2,
+            #abanner2,
+            #atoppicks,
+            #afestive{
+                width: 400px;
+            }
+        }
