@@ -71,7 +71,11 @@ const appendData = ()=>{
   name.innerHTML = data[0].name;
   name.style.paddingTop="30px"
   let color = document.getElementById("colo");
-  color.innerHTML = "color: "+data[0].color;
+  color.innerHTML = "color: " + data[0].color;
+  
+
+  let size = document.getElementById("displaysize");
+  size.innerHTML="SIZE: "+data[0].size
 
   // let sizebtn = document.querySelector(".dsizebtn2");
   // console.log(sizebtn.innerHTML=="M")

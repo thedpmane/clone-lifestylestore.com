@@ -1,0 +1,61 @@
+#dmain {
+    width: 86%;
+
+    margin: auto;
+  }
+  #dleftdiv {
+    width: 60%;
+  }
+  .each_product {
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  #dfooterbtn {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #dfooterbtn button {
+    width: 50%;
+    height: 53px;
+    border: none;
+    color: orange;
+    background-color: white;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  #dqty_div {
+    border-style: none;
+    padding-top:5px ;
+    width: 60px;
+    height: 25px;
+    background-color: #ecedeb;
+    cursor: pointer;
+  }
+  #dmiddle {
+    width: 95%;
+    padding-top: 10px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+  }
+  #dimgshow {
+    width: 100px;
+  }
+  #dimgshow img {
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  #upperpart_div {
+    display: flex;
+    gap: 50px;
+  }
+  #ddetailshow {
+  }
+  #counter {
+    margin-left: 20px;
+    font-weight: bolder;
+  }
