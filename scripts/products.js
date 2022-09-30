@@ -3,15 +3,15 @@ import { footer } from '../components/footer.js';
 let footer_div = document.getElementById('footer');
 // console.log(footer())
 footer_div.innerHTML = footer();
-const products_arr = [
+var products_arr = [
     {
-      "id": "1",
+      "id": 1,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/Beckham-Red-Red-1000003426336_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/Beckham-Red-Red-1000003426336_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/Beckham-Red-Red-1000003426336_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/Beckham-Red-Red-1000003426336_04-2100.jpg",
       "name": "KAPPA Solid Polo Neck T-Shirt",
-      "price": "629",
+      "price": 629,
       "type": "tshirt",
       "color": "Red",
       "fabric": "Polyester Blend",
@@ -20,13 +20,13 @@ const products_arr = [
       "desc": "red tshirt"
     },
     {
-      "id": "2",
+      "id": 2,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010259935-Yellow-Mustard-1000010259935_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010259935-Yellow-Mustard-1000010259935_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010259935-Yellow-Mustard-1000010259935_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010259935-Yellow-Mustard-1000010259935_04-2100.jpg",
       "name": "U.S. POLO ASSN. Men Solid Regular Fit Polo T-shirt",
-      "price": "949",
+      "price": 949,
       "type": "tshirt",
       "color": "Yellow",
       "fabric": "Cotton",
@@ -35,13 +35,13 @@ const products_arr = [
       "desc": "yellow tshirt"
     },
     {
-      "id": "3",
+      "id": 3,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010436128-Grey-Lightgrey-1000010436128_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010436128-Grey-Lightgrey-1000010436128_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010436128-Grey-Lightgrey-1000010436128_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010436128-Grey-Lightgrey-1000010436128_04-2100.jpg",
       "name": "KAPPA Men Printed Hooded Sweatshirt",
-      "price": "999",
+      "price": 999,
       "type": "tshirt",
       "color": "White",
       "fabric": "Cotton Blend",
@@ -50,13 +50,13 @@ const products_arr = [
       "desc": "full sleeve tshirt"
     },
     {
-      "id": "4",
+      "id": 4,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010640156-Green-1000010640156_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010640156-Green-1000010640156_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010640156-Green-1000010640156_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010640156-Green-1000010640156_04-2100.jpg",
       "name": "PEPE JEANS Men Checked Regular Fit Casual Shirt",
-      "price": "1319",
+      "price": 1319,
       "type": "shirt",
       "color": "Green",
       "fabric": "Cotton",
@@ -71,7 +71,7 @@ const products_arr = [
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011179771-Orange-Coral-1000011179771_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011179771-Orange-Coral-1000011179771_04-2100.jpg",
       "name": "SmileyWorld Men Printed Trackpants",
-      "price": "1049",
+      "price": 1049,
       "type": "trackpant",
       "color": "Orange",
       "fabric": "Cotton",
@@ -80,13 +80,13 @@ const products_arr = [
       "desc": "orange trackpant"
     },
     {
-      "id": "6",
+      "id": 6,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011195454-Black-Black-1000011195454_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011195454-Black-Black-1000011195454_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011195454-Black-Black-1000011195454_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011195454-Black-Black-1000011195454_04-2100.jpg",
       "name": "CODE Men Printed Regular Fit Polo T-shirt",
-      "price": "899",
+      "price": 899,
       "type": "tshirt",
       "color": "Black",
       "fabric": "Cotton",
@@ -95,13 +95,13 @@ const products_arr = [
       "desc": "black tshirt"
     },
     {
-      "id": "7",
+      "id": 7,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010698953-Blue-1000010698953_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010698953-Blue-1000010698953_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010698953-Blue-1000010698953_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010698953-Blue-1000010698953_04-2100.jpg",
       "name": "PEPE JEANS Men Striped Regular Fit Polo T-shirt",
-      "price": "1019",
+      "price": 1019,
       "type": "tshirt",
       "color": "Blue",
       "fabric": "Cotton",
@@ -110,13 +110,13 @@ const products_arr = [
       "desc": "blue t"
     },
     {
-      "id": "8",
+      "id": 8,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010618263-Black-1000010618263_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010618263-Black-1000010618263_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010618263-Black-1000010618263_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010618263-Black-1000010618263_04-2100.jpg",
       "name": "US POLO Men Printed Track Pants",
-      "price": "749",
+      "price": 749,
       "type": "pant",
       "color": "Black",
       "fabric": "Polyester",
@@ -125,13 +125,13 @@ const products_arr = [
       "desc": "black trackpant"
     },
     {
-      "id": "9",
+      "id": 9,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011178135-Green-Green-1000011178135_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011178135-Green-Green-1000011178135_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011178135-Green-Green-1000011178135_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011178135-Green-Green-1000011178135_04-2100.jpg",
       "name": "MELANGE Men Printed Band Collar Waistcoat",
-      "price": "1049",
+      "price": 1049,
       "type": "shirt",
       "color": "Green",
       "fabric": "Polyester",
@@ -140,13 +140,13 @@ const products_arr = [
       "desc": "waistcoat"
     },
     {
-      "id": "10",
+      "id": 10,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011177751-Yellow-Yellow-1000011177751_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011177751-Yellow-Yellow-1000011177751_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011177751-Yellow-Yellow-1000011177751_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011177751-Yellow-Yellow-1000011177751_04-2100.jpg",
       "name": "MELANGE Men Embroidered Band Collar Kurta",
-      "price": "1049",
+      "price": 1049,
       "type": "top",
       "color": "Yellow",
       "fabric": "Cotton",
@@ -155,13 +155,13 @@ const products_arr = [
       "desc": "yellow kurta "
     },
     {
-      "id": "11",
+      "id": 11,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010920418-Red-WINE-1000010920418_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010920418-Red-WINE-1000010920418_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010920418-Red-WINE-1000010920418_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010920418-Red-WINE-1000010920418_04-2100.jpg",
       "name": "MELANGE Men Solid Regular Fit Short Kurta",
-      "price": "559",
+      "price": 559,
       "type": "top",
       "color": "Red",
       "fabric": "Cotton",
@@ -170,13 +170,13 @@ const products_arr = [
       "desc": "red kurta"
     },
     {
-      "id": "12",
+      "id": 12,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011784753-White-White-1000011784753_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011784753-White-White-1000011784753_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011784753-White-White-1000011784753_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011784753-White-White-1000011784753_04-2100.jpg",
       "name": "ADIDAS Men Graphic Logo Printed Slim Fit T-shirt",
-      "price": "1399",
+      "price": 1399,
       "type": "top",
       "color": "White",
       "fabric": "Cotton",
@@ -185,13 +185,13 @@ const products_arr = [
       "desc": "white t"
     },
     {
-      "id": "13",
+      "id": 13,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011915761-Grey-DarkGrey-1000011915761_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011915761-Grey-DarkGrey-1000011915761_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011915761-Grey-DarkGrey-1000011915761_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011915761-Grey-DarkGrey-1000011915761_04-2100.jpg",
       "name": "ADIDAS Men Solid Sports Track Pants",
-      "price": "2299",
+      "price": 2299,
       "type": "bottom",
       "color": "Grey",
       "fabric": "Cotton",
@@ -200,13 +200,13 @@ const products_arr = [
       "desc": "black trackpant"
     },
     {
-      "id": "14",
+      "id": 14,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011873822-Black-Black-1000011873822_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011873822-Black-Black-1000011873822_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011873822-Black-Black-1000011873822_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011873822-Black-Black-1000011873822_04-2100.jpg",
       "name": "PUMA Men Solid Zip-Up Sweatshirt",
-      "price": "3499",
+      "price": 3499,
       "type": "top",
       "color": "Black",
       "fabric": "Cotton Blend",
@@ -215,13 +215,13 @@ const products_arr = [
       "desc": "tshirt"
     },
     {
-      "id": "15",
+      "id": 15,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011873812-Red-Red-1000011873812_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011873812-Red-Red-1000011873812_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011873812-Red-Red-1000011873812_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011873812-Red-Red-1000011873812_04-2100.jpg",
       "name": "PUMA Men Solid High Neck Sweatshirt",
-      "price": "3499",
+      "price": 3499,
       "type": "top",
       "color": "Red",
       "fabric": "Cotton Blend",
@@ -230,13 +230,13 @@ const products_arr = [
       "desc": "sweatshirt"
     },
     {
-      "id": "16",
+      "id": 16,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010652899-Yellow-1000010652899_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010652899-Yellow-1000010652899_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010652899-Yellow-1000010652899_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010652899-Yellow-1000010652899_04-2100.jpg",
       "name": "PUMA Men Solid Zip Sweatshirt",
-      "price": "2099",
+      "price": 2099,
       "type": "top",
       "color": "Yellow",
       "fabric": "Cotton Blend",
@@ -245,13 +245,13 @@ const products_arr = [
       "desc": "sweatshirt"
     },
     {
-      "id": "17",
+      "id": 17,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010949894-Orange-Orange-1000010949894_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010949894-Orange-Orange-1000010949894_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010949894-Orange-Orange-1000010949894_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010949894-Orange-Orange-1000010949894_04-2100.jpg",
       "name": "LEVI'S Men Solid Hooded Sweatshirt",
-      "price": "2889",
+      "price": 2889,
       "type": "top",
       "color": "Orange",
       "fabric": "Cotton Blend",
@@ -260,13 +260,13 @@ const products_arr = [
       "desc": "shirt"
     },
     {
-      "id": "18",
+      "id": 18,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010705442-Blue-1000010705442_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010705442-Blue-1000010705442_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010705442-Blue-1000010705442_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010705442-Blue-1000010705442_04-2100.jpg",
       "name": "PUMA Men Solid Elasticated Joggers",
-      "price": "1399",
+      "price": 1399,
       "type": "bottom",
       "color": "Blue",
       "fabric": "Cotton",
@@ -275,13 +275,13 @@ const products_arr = [
       "desc": "trackpant"
     },
     {
-      "id": "19",
+      "id": 19,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010705447-Green-1000010705447_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010705447-Green-1000010705447_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010705447-Green-1000010705447_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010705447-Green-1000010705447_04-2100.jpg",
       "name": "PUMA Men Solid Track Pants",
-      "price": "1399",
+      "price": 1399,
       "type": "bottom",
       "color": "Green",
       "fabric": "Cotton",
@@ -290,13 +290,13 @@ const products_arr = [
       "desc": "trackpant"
     },
     {
-      "id": "20",
+      "id": 20,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011165825-Black-Black-1000011165825_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011165825-Black-Black-1000011165825_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011165825-Black-Black-1000011165825_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011165825-Black-Black-1000011165825_04-2100.jpg",
       "name": "WRANGLER Men Printed Crew Neck T-Shirt",
-      "price": "909",
+      "price": 909,
       "type": "top",
       "color": "Black",
       "fabric": "Cotton",
@@ -305,13 +305,13 @@ const products_arr = [
       "desc": "shirt"
     },
     {
-      "id": "21",
+      "id": 21,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011165813-Grey-Anthramlng-1000011165813_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011165813-Grey-Anthramlng-1000011165813_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011165813-Grey-Anthramlng-1000011165813_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011165813-Grey-Anthramlng-1000011165813_04-2100.jpg",
       "name": "WRANGLER Men Graphic Printed Crew Neck Slim Fit T-shirt",
-      "price": "1399",
+      "price": 1399,
       "type": "top",
       "color": "Grey",
       "fabric": "Cotton",
@@ -320,13 +320,13 @@ const products_arr = [
       "desc": "shirt"
     },
     {
-      "id": "22",
+      "id": 22,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011084652-Blue-1000011084652_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011084652-Blue-1000011084652_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011084652-Blue-1000011084652_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011084652-Blue-1000011084652_04-2100.jpg",
       "name": "WRANGLER Men Skinny Fit Faded Jeans",
-      "price": "2589",
+      "price": 2589,
       "type": "top",
       "color": "Blue",
       "fabric": "Cotton Blend",
@@ -335,13 +335,13 @@ const products_arr = [
       "desc": "pant"
     },
     {
-      "id": "23",
+      "id": 23,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011881308-Green-Olive-1000011881308_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011881308-Green-Olive-1000011881308_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011881308-Green-Olive-1000011881308_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011881308-Green-Olive-1000011881308_04-2100.jpg",
       "name": "WRANGLER Men Camouflage Print Slim Fit Crew T-Shirt",
-      "price": "1599",
+      "price": 1599,
       "type": "bottom",
       "color": "Green",
       "fabric": "Cotton",
@@ -350,13 +350,13 @@ const products_arr = [
       "desc": "pant"
     },
     {
-      "id": "24",
+      "id": 24,
       "mainimg": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010758764-Blue-MidStone-1000010758764_01-2100.jpg",
       "img1": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010758764-Blue-MidStone-1000010758764_02-2100.jpg",
       "img2": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010758764-Blue-MidStone-1000010758764_03-2100.jpg",
       "img3": "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010758764-Blue-MidStone-1000010758764_04-2100.jpg",
       "name": "WRANGLER Men Stonewashed Slim Tapered Jeans",
-      "price": "2099",
+      "price": 2099,
       "type": "bottom",
       "color": "Blue",
       "fabric": "Cotton",
@@ -365,7 +365,7 @@ const products_arr = [
       "desc": "pant"
     }
   ]
-let lsd = JSON.parse(localStorage.getItem("dproducts")) || []
+let lsd = JSON.parse(localStorage.getItem("dproducts"));
 
 localStorage.setItem("dproducts",JSON.stringify(products_arr))
 
@@ -380,22 +380,37 @@ localStorage.setItem("dproducts",JSON.stringify(products_arr))
 // }
 
 // getdata()
+let cart_product_info_arr = []
 let append_div = document.getElementById("dappend_div")
 const Append_Produts = (data,location) => {
     let total_product_show = document.getElementById("dtotal_count_product");
     total_product_show.innerHTML=data.length+"    Products"
-    location.innerHTML=null
+    location.innerHTML = null
+    
     data.forEach((el) => {
+      
+
+
 
         let one_product_div = document.createElement("div");
-        one_product_div.className="done_product_div"
-        //one_product_div.style.position="relative"
+      one_product_div.className = "done_product_div";
+
+
+
         let img_div = document.createElement("div");
-        img_div.className="dimg_div"
+      img_div.className = "dimg_div";
+      
         let img = document.createElement("img");
         img.src = el.mainimg;
         img_div.append(img);
-
+        img_div.addEventListener("click", () => {
+          
+          window.location.href = "product_info.html"
+          let clicked_product_info_arr = []
+          clicked_product_info_arr.push(el)
+          //console.log(clicked_product_info_arr)
+          localStorage.setItem("clicked_product_info",JSON.stringify(clicked_product_info_arr))
+        })
 
         let price_div = document.createElement("div");
         price_div.className="dprice_div"
@@ -429,9 +444,17 @@ const Append_Produts = (data,location) => {
         let addtocart_btn = document.createElement("button");
         addtocart_btn.innerHTML = "ADD TO BASKET";
         addtocart_btn_div.append(addtocart_btn);
-        addtocart_btn.className="addtocart_btn"
-        let random_div = document.createElement("div");
+        addtocart_btn.className = "addtocart_btn";
+        addtocart_btn.addEventListener("click", () => {
+          cart_product_info_arr.push(el)
+          console.log(cart_product_info_arr)
+          localStorage.setItem("cart_product_info",JSON.stringify(cart_product_info_arr))
+          
+        });
         
+        // let random_div = document.createElement("div");
+        // this is optional div 
+      
         one_product_div.append(img_div,price_div,name_div,combo_of_size_color_div,addtocart_btn_div)
         location.append(one_product_div)
         
@@ -440,6 +463,50 @@ const Append_Produts = (data,location) => {
 
 
 Append_Produts(lsd, append_div);
+
+
+document.getElementById("dsorting_div").addEventListener("change",sortname)
+
+function sortname() {
+  let selcted = document.querySelector("#dsort").value;
+  if (selcted === "Revelence") {
+    Append_Produts(lsd, append_div);
+  }else if (selcted === "Low") {
+    products_arr.sort(function (a, b) {
+          
+      if (a.price > b.price) return 1;
+      if (a.price < b.price) return -1;
+      return 0;
+    });
+   
+   
+    Append_Produts(products_arr, append_div);
+  } else if (selcted === "High") {
+    products_arr.sort(function (a, b) {
+      console.log(a.price)
+      if (a.price > b.price) return -1;
+      if (a.price < b.price) return 1;
+      return 0;
+            
+      return 0;
+           
+    });
+    // console.log(lsd)
+    Append_Produts(products_arr, append_div);
+  } else if (selcted === "Alphabetical") {
+    products_arr.sort(function (a, b) {
+          
+      if (a.name > b.name) return 1;
+      if (a.name < b.name) return -1;
+      return 0;
+       
+    });
+    
+    
+    Append_Produts(products_arr, append_div);
+  }
+}
+
 
 // const selected = document.querySelector(".selected");
 // const optionsContainer = document.querySelector(".options-container");
@@ -549,7 +616,7 @@ let bt = document.querySelector(".selected");
         if (selected_va) {
           let filterdata = lsd.filter(function (el) {
            
-            return el.fabric === selected_va;
+            return el.brand === selected_va;
           });
           if (filterdata.length === 0) {
             alert("NO Result Found");

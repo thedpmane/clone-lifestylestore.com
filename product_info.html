@@ -1,122 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/product_info.css" />
+    <title>Product_Info_page</title>
+    <link rel="icon" type="x-icon" href="./images/tabicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./styles/footer.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/product_info.css">
-  <title>Product_Info_page</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="./styles/footer.css">
-</head>
-
-<body>
-  <div id="container">
-    <div id="name"></div>
-    <div id="mdiv">
-      <div id="sdiv1">
-        <div id="d1">div1</div>
-        <div id="d2">div2</div>
-        <div id="d3">div3</div>
-        <div id="d4">div4</div>
-      </div>
-      <div id="sdiv2">
-        <div id="pr"><i class="fa-solid fa-indian-rupee-sign"></i>1319 <span id="tax">inclusive of all texes</span>
+  <body>
+    <div id="container">
+      <div id="name"></div>
+      <div id="mdiv">
+        <div id="sdiv1">
+          <div id="d1"></div>
+          <div id="d2"></div>
+          <div id="d3"></div>
+          <div id="d4"></div>
         </div>
-        <div id="save"><i class="fa-solid fa-indian-rupee-sign"></i>2199 <span style="color:black;"> save <i
-              class="fa-solid fa-indian-rupee-sign"></i>880 (40.02%)</span></div>
-        <div id="free">Free shipping on orders above INR 799</div>
-        <div id="colo">color: Green <span id="only8">Order now, Only 8 Left!</span></div>
-        <div id="size">
-          <div>size: <span id="guide">sizeGuide</span></div>
-          <div id="bt">
-            <BUTTON>S</BUTTON>
-            <BUTTON>M</BUTTON>
-            <BUTTON>L</BUTTON>
-            <BUTTON>XL</BUTTON>
-            <BUTTON>XXL</BUTTON>
+        <div id="sdiv2">
+          <div id="pr">
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            <span id="tax">inclusive of all texes</span>
           </div>
-        </div>
-        <button id="addto">ADD TO BASKET</button>
-        <div id="fev"><i class="fa-sharp fa-solid fa-heart"></i>Add to Favourites <span><i
-              class="fa-solid fa-share-nodes"></i> Share</span></div>
-        <div id="offer">
-          <p>PROMOTION OFFER</p><br><span id="dd">Shop for Rs. 2,999 & Get 12% Off. Code SAVE12 | Shop for Rs. 1,999 &
-            Get 8% Off. Code SAVE8 Browse promotion</span>
-        </div>
-        <div id="des">
-          <div><i class="fa-solid fa-address-book"></i><b> Click & Collect</b><br>
-            Order this product now and collect it from a store of your choice. <u style="color: orange;">Learn more</u>
+          <div id="save">
+            <i class="fa-solid fa-indian-rupee-sign"></i><del>2199</del>
+            <span style="color: black">
+              save <i class="fa-solid fa-indian-rupee-sign"></i>880
+              (40.02%)</span
+            >
           </div>
-          <div><i class="fa-solid fa-left-long"></i> <b>10 days easy return policy.</b> <u style="color: orange;">Learn
-              more</u></div>
-          <div><b><i class="fa-regular fa-cash-register"></i> Pay in installments</b><br>
-            Pay in easy installments on orders of ₹ 3,000 or more. Available for select banks.<u
-              style="color: orange;">Learn more</u></div>
-          <div><i class="fa-solid fa-truck"></i><b> When will I receive my order?</b><br>
-            <div id="pin"><input type="text" placeholder="enter your Pincode">
-              <button>Check</button>
+          <div id="free">Free shipping on orders above INR 799</div>
+          <div id="colo"><span id="only8">Order now, Only 8 Left!</span></div>
+          <div id="size">
+            <div>size: <span id="guide">sizeGuide</span></div>
+            <div id="bt">
+              <button class="dsizebtn1">S</button>
+              <button class="dsizebtn2">M</button>
+              <button class="dsizebtn3">L</button>
+              <button class="dsizebtn4">XL</button>
+              <button class="dsizebtn5">XXL</button>
             </div>
-            <div id="overv"><b>Overview</b><br>
-              Elevate your sporty style with this printed T-shirt. It is designed with a crew neck and half-sleeves.
-              <li>Type : Crew Neck</li>
-              <li>Design : Printed</li>
-              <li>Style : Sporty</li>
-              <li>Sleeve Length : Half Sleeves</li>
-              <li>Fabric : Cotton</li>
-              <li>Fit : Regular</li>
-              <li>Care Instructions : Machine Wash</li>
-              <li>Model Wears : Size M, has Height 6'0" and Chest 38"</li>
-              <li>Product : T-shirt</li>
-              <li>Country of Origin : India</li>
-              <li>Manufactured By : PUMA SPORTS INDIA PVT LTD</li>
-              <li>Net Quantity : 1</li>
-              <u>Read Less ^</u>
+          </div>
+          <button id="addto">ADD TO BASKET</button>
+          <div id="fev">
+            <i class="fa-sharp fa-solid fa-heart"></i>Add to Favourites
+            <span><i class="fa-solid fa-share-nodes"></i> Share</span>
+          </div>
+          <div id="offer">
+            <p>PROMOTION OFFER</p>
+            <br /><span id="dd"
+              >Shop for Rs. 2,999 & Get 12% Off. Code SAVE12 | Shop for Rs.
+              1,999 & Get 8% Off. Code SAVE8 Browse promotion</span
+            >
+          </div>
+          <div id="des">
+            <div>
+              <i class="fa-solid fa-address-book"></i><b> Click & Collect</b
+              ><br />
+              Order this product now and collect it from a store of your choice.
+              <u style="color: orange">Learn more</u>
+            </div>
+            <div>
+              <i class="fa-solid fa-left-long"></i>
+              <b>10 days easy return policy.</b>
+              <u style="color: orange">Learn more</u>
+            </div>
+            <div>
+              <b
+                ><i class="fa-regular fa-cash-register"></i> Pay in
+                installments</b
+              ><br />
+              Pay in easy installments on orders of ₹ 3,000 or more. Available
+              for select banks.<u style="color: orange">Learn more</u>
+            </div>
+            <div>
+              <i class="fa-solid fa-truck"></i
+              ><b> When will I receive my order?</b><br />
+              <div id="pin">
+                <input type="text" placeholder="enter your Pincode" />
+                <button>Check</button>
+              </div>
+              <div id="overv">
+                <b>Overview</b><br />
+                Elevate your sporty style with this printed T-shirt. It is
+                designed with a crew neck and half-sleeves.
+                <li>Type : Crew Neck</li>
+                <li>Design : Printed</li>
+                <li>Style : Sporty</li>
+                <li>Sleeve Length : Half Sleeves</li>
+                <li>Fabric : Cotton</li>
+                <li>Fit : Regular</li>
+                <li>Care Instructions : Machine Wash</li>
+                <li>Model Wears : Size M, has Height 6'0" and Chest 38"</li>
+                <li>Product : T-shirt</li>
+                <li>Country of Origin : India</li>
+                <li>Manufactured By : PUMA SPORTS INDIA PVT LTD</li>
+                <li>Net Quantity : 1</li>
+                <u>Read Less ^</u>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div id="alsolike">
-    <div>You may also like</div>
-    <div id="pro">
-      <div>
-        <img
-          src="https://6c819239693cc4960b69-cc9b957bf963b53239339d3141093094.lmsin.net/1000010436368-Blue-1000010436368-170122_01-1200.jpg"
-          alt="">
-        <h3><i class="fa-solid fa-indian-rupee-sign"></i> 499</h3>
-        <p>PUMA Men Printed Regular Fit Crew Neck T-shirt
-        </p>
+    <div id="alsolike">
+      <div>You may also like</div>
+      <div id="pro">
+        <div>
+          <img
+            src="https://6c819239693cc4960b69-cc9b957bf963b53239339d3141093094.lmsin.net/1000010436368-Blue-1000010436368-170122_01-1200.jpg"
+            alt=""
+          />
+          <h3><i class="fa-solid fa-indian-rupee-sign"></i> 499</h3>
+          <p>PUMA Men Printed Regular Fit Crew Neck T-shirt</p>
+        </div>
+        <div>
+          <img
+            src="https://6c819239693cc4960b69-cc9b957bf963b53239339d3141093094.lmsin.net/1000011925624-Red-Red-1000011925624_01-1200.jpg"
+            alt=""
+          />
+          <h3><i class="fa-solid fa-indian-rupee-sign"></i> 1299</h3>
+          <p>BOSSINI Men Printed Regular Fit Crew Neck T-shirt</p>
+        </div>
+        <div>
+          <img
+            src="https://6c819239693cc4960b69-cc9b957bf963b53239339d3141093094.lmsin.net/1000010652964-Blue-1000010652964_01-1200.jpg"
+            alt=""
+          />
+          <h3><i class="fa-solid fa-indian-rupee-sign"></i> 4999</h3>
+          <p>JACK & JONES Men Solid Regular Fit Polo T-shirt</p>
+        </div>
+        <div>
+          <img
+            src="https://6c819239693cc4960b69-cc9b957bf963b53239339d3141093094.lmsin.net/1000011211332-Orange-Orange-1000011211332_01-1200.jpg"
+            alt=""
+          />
+          <h3><i class="fa-solid fa-indian-rupee-sign"></i> 799</h3>
+          <p>KAPPA Solid Polo Neck T-Shirt</p>
+        </div>
       </div>
-      <div><img
-          src="https://6c819239693cc4960b69-cc9b957bf963b53239339d3141093094.lmsin.net/1000011925624-Red-Red-1000011925624_01-1200.jpg"
-          alt="">
-        <h3><i class="fa-solid fa-indian-rupee-sign"></i> 1299</h3>
-        <p>BOSSINI Men Printed Regular Fit Crew Neck T-shirt
-        </p>
-      </div>
-      <div><img
-          src="https://6c819239693cc4960b69-cc9b957bf963b53239339d3141093094.lmsin.net/1000010652964-Blue-1000010652964_01-1200.jpg"
-          alt="">
-        <h3><i class="fa-solid fa-indian-rupee-sign"></i> 4999</h3>
-        <p>JACK & JONES Men Solid Regular Fit Polo T-shirt
-        </p>
-      </div>
-      <div><img
-          src="https://6c819239693cc4960b69-cc9b957bf963b53239339d3141093094.lmsin.net/1000011211332-Orange-Orange-1000011211332_01-1200.jpg"
-          alt="">
-        <h3><i class="fa-solid fa-indian-rupee-sign"></i> 799</h3>
-        <p>KAPPA Solid Polo Neck T-Shirt
-        </p>
-      </div>
-
     </div>
-  </div>
-  <div id="footer"></div>
-</body>
-
+    <div id="footer"></div>
+  </body>
 </html>
 <script type="module" src="./scripts/product_info.js"></script>
-<script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+<script
+  src="https://kit.fontawesome.com/24c494a6b6.js"
+  crossorigin="anonymous"
+></script>
