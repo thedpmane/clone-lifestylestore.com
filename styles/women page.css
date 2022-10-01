@@ -1,97 +1,218 @@
-        body{
-            font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-        }
-        #atopss1{
-            background-color: #FAA619;
-            color: #FFFFFF;
-            text-align: center;
-        }
-        #atopss1>h2{
-            padding: 10px 0px;
-            font-size: 16px;
-        }
-        #aslideshow1,
-        #avaluepicks{
-            width: 1276px;
-            margin: auto;
-            transition: 1s;
-        }
-        #avaluepickssection{
-            display: grid;
-            grid-template-columns: repeat(6,1fr);
-            gap: 20px;
-            padding-bottom: 30px;
-            border-bottom: 1px solid  #929391;
-            text-align: center;
-        }
-        #avaluepickssection>div>img{
-            width: 100%;
-        }
-        #avaluepickssection>div>h4{
-            margin-top: 0px;
-            font-size: 14px;
-        }
-        #aslideshow1>img,
-        #asparkle>img,
-        #abanner1>img,
-        #aslideshow2>img,
-        #abanner2>img{
-            width: 100%;
-        }
-        #asparkle,
-        #abanner1,
-        #abanner2,
-        #aslideshow2,
-        #atoppicks,
-        #afestive{
-            width: 1276px;
-            margin: auto;
-            margin-top: 50px;
-            padding-bottom: 30px;
-            border-bottom: 1px solid #929391;            
-        }
-        #atoppicks>div:last-child,
-        #afestive>div:last-child{
-            display: flex;
-            gap: 20px;
-        }
-        #atoppicks>div:last-child img,
-        #afestive>div:last-child img{
-            width: 100%;
-        }
-        @media only screen and (max-width: 992px) {            
-            #aslideshow1>img{
-                width: 100%;
-            }
-            #avaluepickssection{
-                grid-template-columns: repeat(3,1fr);            
-            }
-            #aslideshow1,
-            #avaluepicks,
-            #asparkle,
-            #abanner1,
-            #aslideshow2,
-            #abanner2,
-            #atoppicks,
-            #afestive{
-                width: 600px;
-            }
-        }
-        @media only screen and (max-width: 670px) {        
-            #aslideshow1>img{
-                width: 100%;
-            }
-            #avaluepickssection{
-                grid-template-columns: repeat(1,1fr);
-            }
-            #aslideshow1,
-            #avaluepicks,
-            #asparkle,
-            #abanner1,
-            #aslideshow2,
-            #abanner2,
-            #atoppicks,
-            #afestive{
-                width: 400px;
-            }
-        }
+body {
+  font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+}
+#atopss1 {
+  background-color: #faa619;
+  color: #ffffff;
+  text-align: center;
+}
+#atopss1 > h2 {
+  padding: 10px 0px;
+  font-size: 16px;
+}
+#aslideshow1,
+#avaluepicks {
+  width: 1276px;
+  margin: auto;
+  transition: 1s;
+}
+#avaluepickssection {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #929391;
+  text-align: center;
+}
+#avaluepickssection > div > h4 {
+  margin-top: 0px;
+  font-size: 14px;
+}
+#asparkle,
+#abanner1,
+#abanner2,
+#aslideshow2,
+#atoppicks,
+#afestive,
+#aonline,
+#abycat,
+#atoptrending,
+#aactivewear,
+#atreadd,
+#awadrob,
+#acurated,
+#amostloved,
+#aedilist,
+#afsale,
+#ashopbydept {
+  width: 1276px;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #929391;
+}
+#aonline > div {
+  display: flex;
+  gap: 20px;
+}
+#aonline > div p {
+  font-size: 14px;
+}
+#aonline > div > div h4 {
+  font-size: 18px;
+  color: #242428;
+}
+#aonline > div > div s {
+  font-size: 12px;
+  color: #929391;
+}
+#aonline > div button {
+  color: #faa619;
+  font-size: 14px;
+  display: block;
+  margin: auto;
+  padding: 14px 120px;
+  border: 1px solid #d6d8f0;
+  background-color: #fff;
+}
+#aonline > div:nth-child(2) > div > div {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+#aonline > div:nth-child(2) > div > div span {
+  background-color: #ffffff;
+  position: relative;
+  width: 100%;
+  display: block;
+  text-align: center;
+  justify-content: end;
+  font-size: 12px;
+  left: 50%;
+  bottom: 80px;
+  padding: 5px 3px;
+}
+#aonline > div:nth-child(2) > div > span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 86%;
+  bottom: 64%;
+}
+#aonline > div:nth-child(2) > div > span img {
+  width: 100%;
+  border-radius: 50%;
+}
+#abycat > div,
+#atoptrendingbrands,
+#atao {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+#avaluepickssection > div > img,
+#aslideshow1 > img,
+#asparkle > img,
+#abanner1 > img,
+#aslideshow2 > img,
+#abanner2 > img,
+#atoppicks > div:last-child img,
+#afestive > div:last-child img,
+#aonline > div > div img,
+#abycat > div img,
+#atoptrendingbrands img,
+#aatv img,
+#atao img,
+#awaess img,
+#acur img,
+#amolo img,
+#aeli img,
+#afsale img,
+#ashpdept img {
+  width: 100%;
+}
+#atoppicks > div:last-child,
+#afestive > div:last-child,
+#aatv,
+#awaess,
+#acur,
+#amolo,
+#aeli,
+#ashpdept {
+  display: flex;
+  gap: 20px;
+}
+@media only screen and (max-width: 992px) {
+  #aslideshow1,
+  #avaluepicks,
+  #asparkle,
+  #abanner1,
+  #aslideshow2,
+  #abanner2,
+  #atoppicks,
+  #afestive,
+  #aonline,
+  #abycat,
+  #atoptrending,
+  #aactivewear,
+  #atreadd,
+  #awadrob,
+  #acurated,
+  #amostloved,
+  #aedilist,
+  #afsale,
+  #ashopbydept {
+    width: 600px;
+  }
+  #avaluepickssection,
+  #atao {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #aonline > div:nth-child(2) > div > div,
+  #aonline > div:nth-child(2) > div > span {
+    display: none;
+  }
+  #abycat > div,
+  #atoptrendingbrands {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media only screen and (max-width: 670px) {
+  #avaluepickssection {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #aslideshow1,
+  #avaluepicks,
+  #asparkle,
+  #abanner1,
+  #aslideshow2,
+  #abanner2,
+  #atoppicks,
+  #afestive,
+  #aonline,
+  #abycat,
+  #atoptrending,
+  #aactivewear,
+  #atreadd,
+  #awadrob,
+  #acurated,
+  #amostloved,
+  #aedilist,
+  #afsale,
+  #ashopbydept {
+    width: 400px;
+  }
+  #aonline > div:nth-child(2) > div > div,
+  #aonline > div:nth-child(2) > div > span {
+    display: none;
+  }
+  #abycat > div,
+  #atoptrendingbrands,
+  #atao {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
