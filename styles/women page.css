@@ -6,29 +6,32 @@ body {
   background-color: #faa619;
   color: #ffffff;
   text-align: center;
+  margin-bottom: 40px;
+  cursor: pointer;
 }
 #atopss1 > h2 {
   padding: 10px 0px;
   font-size: 16px;
 }
-#aslideshow1,
-#avaluepicks {
+#aslideshow1{
   width: 1276px;
   margin: auto;
-  transition: 1s;
+  transition: 3s;
+  margin-bottom: 100px;
+  cursor: pointer;
 }
 #avaluepickssection {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 20px;
   padding-bottom: 30px;
-  border-bottom: 1px solid #929391;
   text-align: center;
 }
 #avaluepickssection > div > h4 {
   margin-top: 0px;
   font-size: 14px;
 }
+#avaluepicks,
 #asparkle,
 #abanner1,
 #abanner2,
@@ -44,13 +47,18 @@ body {
 #acurated,
 #amostloved,
 #aedilist,
-#afsale,
+#afsale{
+  width: 1276px;
+  margin: auto;
+  margin-top: 100px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #929391;
+}
 #ashopbydept {
   width: 1276px;
   margin: auto;
-  margin-top: 50px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #929391;
+  margin-top: 100px;
+  padding-bottom: 40px;  
 }
 #aonline > div {
   display: flex;
@@ -67,7 +75,7 @@ body {
   font-size: 12px;
   color: #929391;
 }
-#aonline > div button {
+#aonline > div:last-child button {
   color: #faa619;
   font-size: 14px;
   display: block;
@@ -75,6 +83,11 @@ body {
   padding: 14px 120px;
   border: 1px solid #d6d8f0;
   background-color: #fff;
+  margin-top: 80px;
+}
+#aonline > div:last-child button:hover{
+  cursor: pointer;
+  border-color: #faa619;
 }
 #aonline > div:nth-child(2) > div > div {
   width: 80%;
@@ -100,11 +113,20 @@ body {
   height: 30px;
   position: relative;
   left: 86%;
-  bottom: 64%;
+  bottom: 78%;
+}
+#aonline > div:nth-child(2) > div > span:hover {
+  scale: 1.4;
 }
 #aonline > div:nth-child(2) > div > span img {
   width: 100%;
   border-radius: 50%;
+}
+.aonlineh{
+  margin-top: -40px;
+}
+.aonlinep{
+  margin-top: -20px;
 }
 #abycat > div,
 #atoptrendingbrands,
@@ -146,6 +168,42 @@ body {
   display: flex;
   gap: 20px;
 }
+#avaluepicks h2,
+#atoppicks h2,
+#afestive h2,
+#aonline h2,
+#abycat h2,
+#atoptrending h2,
+#aactivewear h2,
+#atreadd h2,
+#awadrob h2,
+#acurated h2,
+#amostloved h2,
+#aedilist h2,
+#afsale h2,
+#ashopbydept h2{
+  font-size: 36px;
+}
+#avaluepickssection,
+#asparkle,
+#abanner1,
+#aslideshow2,
+#abanner2,
+#atoppicks,
+#afestive,
+#aonline > div:nth-child(2),
+#abycat>div,
+#atoptrendingbrands,
+#aatv,
+#atao,
+#awaess,
+#acur,
+#amolo,
+#aeli,
+#afsale>div,
+#ashpdept{
+  cursor: pointer;
+}
 @media only screen and (max-width: 992px) {
   #aslideshow1,
   #avaluepicks,
@@ -179,6 +237,12 @@ body {
   #abycat > div,
   #atoptrendingbrands {
     grid-template-columns: repeat(4, 1fr);
+  }
+  #aonline > div:last-child button {
+    padding: 14px 60px;
+  }
+  .aonlineh{
+    margin-top: 0px;
   }
 }
 @media only screen and (max-width: 670px) {
@@ -214,5 +278,11 @@ body {
   #atoptrendingbrands,
   #atao {
     grid-template-columns: repeat(2, 1fr);
+  }
+  #aonline > div:last-child button {
+    padding: 14px 60px;
+  }
+  .aonlineh{
+    margin-top: 0px;
   }
 }
