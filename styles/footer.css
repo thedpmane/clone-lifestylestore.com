@@ -128,6 +128,9 @@
 #abottomdown>div{
     line-height: 0.5;
 }
+#abottomdown>div:last-child>p a:hover{
+    color: #faa619;
+}
 @media only screen and (max-width: 992px) {
     #afooter{
         width: 70%;
