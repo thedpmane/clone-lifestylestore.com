@@ -1,11 +1,14 @@
+import { footer } from '../components/footer.js';
+let footer_div = document.getElementById('footer');
+// console.log(footer())
+footer_div.innerHTML = footer();
 
 let lsd = JSON.parse(localStorage.getItem("cart_product_info"));
-let maindiv = document.getElementById("dleftdiv");
-//console.log(lsd);
+//let maindiv = document.getElementById("dleftdiv");
+let laxmidiv = document.getElementById("sdiv1");
 
-if (lsd == null) {
-  alert("cart is empty")
-}
+//console.log(lsd);
+let total = 0;
 const append = () => {
   lsd.forEach((el) => {
     let deach_product = document.createElement("div");
@@ -63,9 +66,25 @@ const append = () => {
     //console.log(el.name)
     deach_product.append(dupperpart_div, middlepart, hr, dfooterbtn);
     dupperpart_div.append(ddimgshow, dddetailshow);
-    maindiv.append(deach_product);
-    let counter = document.getElementById("counter");
+    //maindiv.append(deach_product);
+    laxmidiv.append(deach_product)
+    let counter = document.getElementById("prod");
+    counter.style.paddingLeft="30px"
     counter.innerHTML = lsd.length + " Products";
+
+
+    total += el.price;
+   
+
   });
+  //console.log(total)
+  let without_discount_price = document.getElementById("d2");
+  without_discount_price.innerHTML = "₹" + (total + 2599);
+
+  let discount_price= document.getElementById("d4")
+  discount_price.innerHTML = "- ₹" + 2599;
+  
+  let total_priceshow = document.getElementById("dd2");
+  total_priceshow.innerHTML = "₹" + total;
 };
 append();

@@ -4,23 +4,70 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>cart</title>
+    <title>Cart</title>
+    <link rel="icon" type="x-icon" href="./images/tabicon.png" />
     <link rel="stylesheet" href="styles\cart.css" />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="styles\footer.css" />
   </head>
-
   <body>
-    <div id="dmain">
-      <h3>Your Shopping Basket</h3>
-      <hr />
-      <div id="counter"></div>
-      <div id="dleftdiv"></div>
+    <div id="container">
+      <div id="mdiv">
+        <div id="name">
+          Your Shopping Basket
+          <hr />
+        </div>
+        <div id="prod">0 Products</div>
+        <div id="cont">
+          <div id="sdiv1"></div>
+          <div id="sdiv2">
+            <div id="code">
+              <p>Deliver to</p>
+              <p>431401</p>
+              <p>Change</p>
+            </div>
+            <div id="gift">
+              <img
+                src="https://www.lifestylestores.com/static/icons/gift-box.png"
+                alt=""
+              />
+              <div>
+                Offers for you ! <span id="sel">Select</span> <br /><span
+                  style="color: grey"
+                  >Choose and apply voucher in 2 simple steps</span
+                >
+              </div>
+            </div>
+            <div id="tot">
+              <div>
+                <div id="d1">Total MRP</div>
+                <div id="d2"></div>
+                <div id="d3">Offer discount</div>
+                <div id="d4">- ₹0</div>
+                <div id="d5">Shipping charge</div>
+                <div id="d6">Free</div>
+              </div>
+              <hr />
+              <div>
+                <div id="dd1">Total</div>
+                <div id="dd2">₹0</div>
+              </div>
+              <button id="addto">Checkout now</button>
+              <div id="charge">
+                Shipping charges might vary based on pincode delivery location
+              </div>
+              <div id="eli">
+                <img
+                  src="https://www.lifestylestores.com/static/icons/calendar-icon.svg"
+                  alt=""
+                />
+                <span>Your order is eligible for installments</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <div id="footer"></div>
   </body>
 </html>
-
-<script src="scripts\cart.js"></script>
+<script type="module" src="scripts\cart.js"></script>
