@@ -6,9 +6,12 @@
   #dleftdiv {
     width: 60%;
   }
+
   .each_product {
-    margin-top: 50px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    border: solid gray;
+    border-width: thin;
+    margin-bottom: 10px;
   }
 
   #dfooterbtn {
@@ -18,7 +21,7 @@
 
   #dfooterbtn button {
     width: 50%;
-    height: 53px;
+    height: 45px;
     border: none;
     color: orange;
     background-color: white;
@@ -59,3 +62,204 @@
     margin-left: 20px;
     font-weight: bolder;
   }
+        #container {
+        width: 100%;
+       
+        height: auto;
+        padding: 0 0 56px 0;
+        line-height: 20px;
+        margin: auto;
+      }
+      #name {
+        /* border: 1px solid blue; */
+        height: 44px;
+        padding: 16px 0 0 0;
+        font-size: 24px;
+        width: 1270px;
+        font-weight: 500;
+      }
+      #mdiv {
+        /* border: 1px solid red; */
+        padding-bottom:80px ;
+        width: 1270px;
+        margin: auto;
+      }
+      #prod {
+        border: 1px solid;
+        height: 40px;
+        font-weight: 700;
+        padding-top: 10px;
+      }
+      #sdiv1 {
+        width: 840px;
+        gap: 10px;
+        /* grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 550px); */
+      }
+      #sdiv2 {
+        margin-left: 20px;
+        width: 425px;
+      }
+      #cont {
+        width: 100%;
+        padding-top: 30px;
+        /* border: 1px solid black; */
+
+        margin: auto;
+        display: flex;
+      }
+      #code {
+        display: flex;
+        height: 60px;
+        font-weight: 700;
+        border: 1px solid grey;
+        font-family: sans-serif;
+      }
+      #code > p:nth-child(1) {
+        padding-right: 60px;
+        padding-left: 10px;
+      }
+      #code > p:nth-child(3) {
+        padding-right: 10px;
+        padding-left: 130px;
+        color: orange;
+      }
+      #gift {
+        border: 1px solid grey;
+        height: 105px;
+        width: 425px;
+        margin-top: 10px;
+        display: flex;
+      }
+      #gift > img {
+        height: 67px;
+        /* border: 1px solid; */
+        padding: 20px;
+      }
+      #gift > div {
+        /* border: 1px solid; */
+        font-weight: 700;
+        padding-top: 10px;
+      }
+      #gift > div > span {
+        font-weight: 100;
+        line-height: 2;
+      }
+      #sel {
+        padding-left: 100px;
+        color: orange;
+        font-weight: 700;
+        font-size: 19px;
+      }
+      #tot {
+        height: 303px;
+        border: 1px solid grey;
+        margin-top: 20px;
+      }
+      #tot > div:nth-child(1) {
+        /* border: 1px solid; */
+        height: 109px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      #d1 {
+        width: 180px;
+        /* border: 1px solid; */
+        height: 20px;
+        margin-right: 30px;
+      }
+      #d2 {
+        width: 200px;
+        /* border: 1px solid; */
+        height: 20px;
+        text-align: end;
+      }
+      #d3 {
+        width: 180px;
+        /* border: 1px solid; */
+        height: 20px;
+        margin-right: 30px;
+      }
+      #d4 {
+        width: 200px;
+        /* border: 1px solid; */
+        height: 20px;
+        text-align: end;
+      }
+      #d5 {
+        width: 180px;
+        /* border: 1px solid; */
+
+        margin-right: 30px;
+      }
+      #d6 {
+        width: 200px;
+        /* border: 1px solid; */
+        height: 20px;
+        text-align: end;
+      }
+      #tot > div:nth-child(3) {
+        margin: auto;
+        width: 95%;
+
+        display: flex;
+        font-size: larger;
+        font-weight: bolder;
+        justify-content: space-between;
+        margin-top: 10px;
+      }
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+      #dd1 {
+        /* border: 1px solid; */
+      }
+      #dd2 {
+        width: 200px;
+        /* border: 1px solid; */
+        text-align: end;
+      }
+      #addto {
+        height: 56px;
+        border: 1px solid;
+        width: 400px;
+        margin-top: 10px;
+        margin-left: 10px;
+        background-color: orange;
+        color: white;
+        font-size: 19px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+      #charge {
+        height: 50px;
+        /* border: 1px solid; */
+        width: 400px;
+        margin-top: 10px;
+        margin-left: 10px;
+        background-color: rgb(226, 226, 226);
+        line-height: 1.5;
+      }
+      #eli {
+        height: 50px;
+
+        width: 420px;
+        padding-top: 10px;
+        margin-top: 35px;
+        border: 1px solid;
+        line-height: 1.5;
+      }
+      #eli > img {
+        width: 20px;
+        margin-right: 30px;
+        margin-top: 10px;
+        /* border: 1px solid ; */
+      }
+      #eli > span {
+        margin-top: 10px;
+        /* border: 1px solid; */
+        width: 20px;
+        font-size: 18px;
+      }
