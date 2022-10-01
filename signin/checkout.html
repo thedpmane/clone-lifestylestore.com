@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            width:60%;
+            /* border:2px solid red; */
+
+        }
+        #form1>div{
+            width:95%;
+            margin:auto;
+            height:150px;
+            /* border: 2px solid blue; */
+            margin-bottom:20px;
+            font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+            
+        }
+        h2{
+            font-weight: 700;
+            font-size: 24px;
+            color: #242428;
+        }
+        #click{
+            display:flex;
+        }
+        #click>div{
+            border:1px solid #969ca0;
+            margin:auto;
+            text-align: center;
+            line-height: 10px;
+            color: #969ca0;
+            padding:0px 33px 0px 33px;
+            font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        }
+        #click>div:hover{
+            border: 3px solid orange;
+            border-radius: 2px;
+            cursor: pointer;
+            
+            
+            /* font-weight: bolder ; */
+        }
+        #click>div>h3{
+            color:#000000;
+            font-weight: 2;
+            font-size: 16px;
+        }
+        #click>div>p{
+            font-size: 14px;
+        }
+        #click>div>h3:hover{
+            color:#000000;
+            font-weight: bolder;
+        }
+        #form2>div{
+            width:95%;
+            /* height: 900px; */
+            margin:auto;
+            /* border:2px solid pink; */
+            font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        }
+        #form2>div>h3{
+            font-weight: 700 ;
+            color:#3d464d;
+
+        }
+        #form2>div>p{
+            color:#3d464d;
+            font-weight:590;
+            font-size: 14px;
+        }
+        #form2>div>div{
+            width:80%;
+            height:35px;
+            border-radius: 2px;
+            border:1px solid #3d464d;
+        }
+        #form2>div>div:hover{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+        }
+        #form2>div>div>input{
+            width:96%;
+            height:30px;
+            margin:0px 0px 0px 10px;
+            border:none;
+        }
+        #form2>div>div>input:focus{
+         outline:none;
+        }
+        #checknum{
+            display: flex;
+            
+        }
+        #checknum>div:nth-child(1){
+            width:10%;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            padding:6px;
+            background-color: whitesmoke;
+            /* font-size: 14px; */
+            
+            
+        
+        
+        }
+        #checknum>div:nth-child(2){
+            width:90%;
+        }
+        #checknum>div:nth-child(2)>input{
+            width:98%;
+            height:30px;
+            border:none;
+        }
+        #checknum>div:nth-child(2)>input:focus{
+            outline:none;
+        }
+        #states{
+            width:98%;
+            height:35px;
+            color:#969ca0;
+            margin-left:10px;
+            border:none;
+            
+        }
+        #states>option{
+            color: #242428;
+            border:0px solid white;
+
+        }
+        #states>option:focus{
+            outline:none
+        }
+      
+        
+        #addo{
+            width:95%;
+            height:100px;
+            border:1px solid #969ca0;
+            margin:auto;
+            /* /* border: 90px solid #969ca0; */
+            /* border-bottom: 10px; */
+            border-top:30px;
+            border-left: 0px;
+            border-right:10px; 
+
+        }
+        #addo>p{
+            font-size:14px;
+            font-weight: 600;
+            color: #3d464d;
+            font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+
+        }
+        #addo>div{
+            display:flex;
+        }
+        #addo>div>div{
+            margin:auto;
+
+        }
+        #addo>div>div:nth-child(1)
+        {
+            margin-left:-22px;
+        }
+        #addo>div>div:nth-child(2)
+        {
+            margin-left:-22px;
+        }
+
+        #pay{
+            /* border: 2px solid black; */
+            width:90%;
+            height:auto;
+            margin-top:20px;
+        }
+        #pay>div{
+            width:95%;
+            margin:auto;
+        }
+        #bank{
+            display:flex;
+            font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        }
+        #bank>img{
+            margin-top:20px;
+            width:50px;
+            height:50px;
+        }
+        #bank>div{
+            margin-left:50px;
+            /* line-height: 20px; */
+            font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+
+        }
+        #pay>div>h2{
+            font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+
+        }
+        #bank>div>p{
+            line-height: 5px;
+            color:#969ca0;
+            font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+
+        }
+        #banck>div>h3{
+            
+        
+            color:#3d464d;
+            font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+
+        
+
+        }
+        #card{
+            width:60%;
+            
+            margin-top:20px;
+        
+            /* border:2px solid red; */
+            /* height: 8000px; */
+
+        }
+        #card>div{
+            width:80%;
+            /* border:2px solid green; */
+            height: 600;
+            margin:auto;
+            display:flex;
+            font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+
+
+        }
+        #CAR>div{
+            display:flex;
+            margin:auto;
+            margin-left:0px;
+        }
+        #form3>div{
+            width:83%;
+            margin:auto;
+            /* border:1px solid  #969ca0; */
+
+            /* border-bottom:1px; */
+            /* border-right:0px; */
+            /* border-top:0px; */
+            /* border-left:0px; */
+
+            font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+
+        }
+        #carddetail{
+            display:flex;
+        }
+        #form3>div>div{
+        /* { margin:auto; */
+            width:40%;
+            height: 40px;
+            border:1px solid #969ca0; 
+            border-radius: 2px;
+            
+        }
+        #form3>div>div>input{
+            width:95%;
+            height: 35px;
+            margin-left:10px;
+            border:none;
+            font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+            /* border:2px solid blue ;  */
+        }
+        #form3>div>div>input:focus{
+            outline:none;
+        }
+        #form3>div>p{
+            font-size: 14px;
+            font-weight: 1;
+          color: #3d464d;
+              font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        }
+        #form3>div:nth-child(3){
+            border:none;
+        }
+        
+        #carddetail>div{
+            width:40%;
+            margin-right:10px;
+            /* border:none; */
+            border:1px solid #969ca0;
+            
+        }
+         #carddetail>div>input{
+            width:90%;
+            height:35px;
+            border:none;
+         }
+         #form3>div>div:nth-child(6)
+        {
+            width:40%;
+            height: 40px;
+            border:0px solid #969ca0; ;
+            border-radius: 2px;
+        }
+        #last{
+            width:60%;
+            height:500px;
+            border:1px solid #969ca0;
+            border-top: 10px;
+            border-left: 10px;
+            border-right: 10px;
+            margin-left:30px
+        }
+        #last>div{
+            display:flex;
+            border:1px solid  #969ca0;
+            /* border-bottom: 10px; */
+            border-top: 10px;
+            border-left: 10px;
+            border-right: 10px;
+        }
+        #last>div>div>ul>li>img{
+            width:80%;
+            margin-top:20px;
+        }
+        #last>div>div>h4{
+            line-height: 10px;
+            color:#3d464d;
+            font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+
+        }
+        #last>div>div>p{
+            font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+            line-height-step: 10px;
+            color: #969ca0;
+        }
+        #divupi{
+            width:10%;
+            margin-right:20px;
+
+        }
+        #divupi+div{
+            margin-left:29px
+        }
+        button{
+            width:100%;
+            margin-top:0px;
+            margin-left:200px;
+            padding:15px 50px 15px 50px;
+            background-color: orange;
+            color: aliceblue;
+            font-weight: bold;
+            border:none;
+            border-radius: 2px;
+            font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        }
+        #button4{
+            display: flex;
+        }
+        #button4>div{
+            /* width:90%; */
+            /* border: 2px solid red; */
+            margin-top:50px;
+            margin-bottom:50px;
+        }
+        #button4>div>p{
+            width:100%;
+            font-size:11px;
+            /* font-weight: bold; */
+            color:#969ca0;
+        }
+        #footer{
+            display: flex;
+            width:70%;
+            margin-top:20px;
+
+        }
+        #footer>div{
+            width:75%;
+            color: #969ca0;
+            justify-content: left;
+            margin:auto;
+            font-size: 12px;
+            font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+
+            
+        }
+        #footer>div>h4{
+            color: #3d464d;
+            font-weight: 1;
+        }
+        #footer>img{
+            width:15%;
+            height:60px;
+        }
+        #cardname:focus{
+            outline:none
+        }
+        #cardYY:focus{
+            outline:none;
+        }
+        #cardCVV:focus{
+            outline:none;
+        }
+        #lastline{
+            width:100%;
+            border:1px solid #969ca0;
+            height:150px;
+            /* border-top: 10px; */
+            border-right: 10px;
+            border-bottom: 10px;
+            border-left: 10px;
+        }
+        
+        
+
+
+
+       
+
+
+
+
+        
+
+
+        
+    </style>
+</head>
+<body>
+    <div id="main">
+        <from id="form1">
+            <div>
+                <h2>Select a shipping method</h2>
+                <div id="click">
+                    <div id="home">
+                        <h3>Home delivery</h3>
+                      <p>Get your product delivered to your home.</p>
+                   </div>
+                   <div id="collect">
+                    <h3>Click & Collect</h3>
+                    <p>Collect your order from a store of your choice.</p>
+                   </div>
+                </div>
+
+            </div>
+          
+        </from>
+
+
+        <!-- 3333333333333333333333333333333333333333333333 -->
+    
+       
+        <form id="form2">
+            <div>
+                <h3>Add your shipping address</h3>
+                <p>Full Name</p>
+                <div>
+                    <input required type="text" Placeholder="Full Name">
+                </div>
+                
+                <p>Mobile Number</p>
+                <div id="checknum">
+                    <div>
+                        +91
+                    </div>
+                    <div> 
+                      <input required id="mobile_number" type="text"  maxlength="10"  placeholder="Enter your mobile number" value="">
+                    </div>
+                </div>
+                <p>Pincode</p>
+                <div>
+                    <input  required type="text" maxlength="6" placeholder="Enter pincode">
+                </div>
+               
+                <p>State</p>
+                <div>
+                    <select id="states">
+                        <option value="">Select Your State</option>
+                        <option value="state">Jammu & Kashmir</option>
+                        <option value=""> Uttar Pradesh</option>
+                        <option value="">Madhya Pradesh</option>
+                        <option value="">Himachal Pradesh</option>
+                        <option value="">West Bengal</option>
+                        <option value="">Kerla</option>
+                        <option value="">Arunchal Pradesh</option>
+                        <option value="">Naglaland</option>
+                        <option value="">Manipur</option>
+                        <option value="">Assam</option>
+                        <option value="">Ordisha</option>
+                        <option value="">Maharashtra</option>
+                        <option value="">Tamil Nadu</option>
+                        <option value="">Bihar</option>
+                        <option value="">Uttrakhand</option>
+                        <option value="">Gujrat</option>
+                        <option value="">Punjab</option>
+                        <option value="">chattishgarh</option>
+                        <option value="">Dada  And Nagar Haveli</option>
+                        <option value="">Andra Pradesh</option>
+                        <option value="">Andman And Nicobar Islands</option>
+                        <option value="">Goa</option>
+                        <option value="">Haryana</option>
+                        <option value="">Jharkhand</option>
+                        <option value="">Karnataka</option>
+                        <option value="">Mizoram</option>
+                        <option value="">Mayghalaya</option>
+                        <option value="">Skim</option>
+
+                    </select>
+                </div>
+                
+                <p>Building name or number</p>
+                <div>
+                    <input required type="text" placeholder="Enter Building Name">
+
+                </div>
+               
+                <p>Street name or number</p>
+                <div>
+                    <input  required type="text" placeholder="Enter Flate/House number, Floor, Building">
+                </div>
+               
+                <p>Landmark</p>
+                <div>
+                    <input required type="text" placeholder="Landmark">
+                </div>
+           </div>
+    
+        </form>
+        
+
+        <div id="addo">
+            <p>Address Type</p>
+            <div>
+                <div><ul type="circle">
+                    <li>Home</li>
+                </ul></div>
+                <div><ul type="circle">
+                    <li>Office</li>
+                </ul></div>
+                
+            </div>
+           
+        </div>
+    
+
+    </div>
+
+
+
+    <div id="pay" >
+        <div>
+            <h2>Select a payment method</h2>
+            <div id="bank">
+                <img src="https://img.icons8.com/ios/32/bank-card-front-side--v2.png">
+                <div><h3>Credit/Debit Card</h3>
+                    <p>Use your Credit or Debit card</p>
+                </div>
+
+            </div>
+           
+        </div>
+
+    </div>
+
+    <div id="card">
+        <div id="CAR">
+            <div>
+                <div></div><ul type="circle" ><li>Debit Card</li></ul></div>
+                <div><ul type="circle"><li>Credit Card</li></ul></div>
+            </div>
+           
+        </div>
+
+        <form id="form3">
+            <div>
+                <p>Card Number</p>
+                <div>
+                    <input id="cardnumber" type="text" required maxlength="16" placeholder="Enter the 16 digit  card number">
+                </div>
+           
+            <p>Name on Card</p>
+            <div>
+                <input id="cardname" type="text" required placeholder="Name on card">
+            </div>
+           
+            <p>Expiry Date</p>
+            <div id="carddetail">
+                <div>
+                    <input required id="cardname" type="month" required placeholder="margin-bottom">
+                </div>
+                <div>
+                    <input required id="cardYY" type="years" required placeholder="YY">
+                </div>
+                <div>
+                    <input required id="cardCVV" type="text" required maxlength="3"placeholder="CVV">
+                </div>
+            </div>
+            <p>Save this card for future transactions </p>
+            <p>Billing Address</p>
+            <p> Is billing address the same as shipping address?</p>
+
+        </div>              
+        </form>
+    </div>
+    <div id="last">
+        <div>
+            <div><img src="https://i1.lmsin.net/website_images/ae/checkout/logo-cash.png"></li></ul></div>
+            <div><h4>Cash On Delivery</h4>
+            <p>+Rs 49</p></div>
+        </div>
+        <div>
+            <div><ul type="circle"><li><img src="https://i1.lmsin.net/website_images/in/checkout/logo-netbanking.svg"></li></ul></div>
+            <div><h4>Net Banking</h4>
+            <p>Pay by your Preferred bank account.</p></div>
+        </div>
+        <div>
+            <div><ul type="circle"><li><img src="//i1.lmsin.net/website_images/in/checkout/logo-wallet.svg"></li></ul></div>
+            <div><h4>Wallets</h4>
+            <p>pay by your Preferred wallet.</p></div>
+        </div>
+        <div>
+            <div id="divupi"><ul type="circle"><li><img id="upi" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlcNGrZQ2WUDbqU8FKIFhlnhynsJxnzUEn2PPiWTKEXllPIaB_l6VUxfvhG-9anDAEVM8&usqp=CAU"></li></ul></div>
+            <div><h4>UPI</h4>
+            <p>pay by your Preferred UPI Id.</p></div>
+        </div>
+        <div id="button4">
+            <div> <p>By clicking on Proceed to Payment, you agree to our Terms and Conditions</p></div>
+            <div> <button>Pay Now</button></div>
+           
+           
+        </div>
+        
+
+    </div>
+    <div>
+
+    </div>
+
+
+    <div id="footer">
+        
+            <img src="https://i1.lmsin.net/website_images/common/images/logos/logo-comodo.png">
+        
+        <div><p>Your credit card details are securely encrypted and passed directly to our PCI DSS compliant Payment Gateway for processing. We only store your credit card's last 4 digits and the expiration date. Your traffic to this page is secured using either a 256-bit or 128-bit SSL certificate depending on your browser version.</p>
+        <h4>2021 RNA Intellectual Property Limited.</h4>
+    <h4>Privacy Policy - Terms of Use - Terms & Conditions</h4></div>
+    </div>
+    <div id="lastline"></div>
+    
+   
+
+</body>
+</html>

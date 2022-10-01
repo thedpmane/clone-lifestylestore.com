@@ -1,0 +1,145 @@
+#signin{
+    width:50%;
+    /* border:2px solid black; */
+    height: 425px;
+    margin:auto;
+
+}
+#signin>div{
+    /* border:2px solid green; */
+    width:80%;
+    height:300px;
+    margin:50px 50px 50px 50px;
+}
+h1{
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    /* font-style: sans-serif; */
+    font-weight: 1;
+    /* color:red; */
+}
+p{
+    color: rgb(146, 147, 145);
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 1;
+    font-size: 14px;
+}
+#line1{
+    display:flex;
+    width:100%;
+    
+
+}
+#line1>div:nth-child(1){
+    margin-right: 5px;
+    
+}
+#line1>div:nth-child(1)>p{
+    
+    color:#000000;
+}
+#line1>div:nth-child(2)>p{
+    color:orange;
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 1;
+    font-size: 14px;
+}
+#num{
+    display:flex;
+    border:1px solid rgb(146, 147, 145);
+    
+    height:50px;
+    border-radius:2px;
+
+}
+#num>div:nth-child(1){
+    width:40%;
+    height:40px;
+    border: 1px solid grey;
+    /* justify-items: center; */
+    /* align-items: center; */
+    text-align: center;
+    font-size:30px;
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 0;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    margin-right:5px;
+    margin-top:5px;
+
+    
+}
+#mobile_number{
+    width:400px;
+    height:40px;
+    border:none;
+    margin-top:5px;
+}
+#mobile_number:focus{
+    outline:none;
+}
+
+    /* writing-mode: horizontal-tb;
+
+text-rendering: auto;
+color: fieldtext;
+letter-spacing: normal;
+word-spacing: normal;
+line-height: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+text-align: start;
+appearance: auto;
+-webkit-rtl-ordering: logical;
+margin: 0em;
+padding: 1px 2px;
+border-width: 2px;
+border-style: inset; */
+
+
+
+
+
+#button1{
+color:white;
+background-color: orange;
+padding:25px 95px 25px 95px;
+margin-left:200px;
+cursor:pointer;
+text-align: center;
+border: none;
+border-radius: 1px;
+margin-top:30px;
+
+font-weight: bold;
+font-size: 14px;
+font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+
+}
+#div{
+    width:90%;
+    border:1px solid rgb(146, 147, 145);
+    margin:auto;
+    border-left: 0px;
+    border-right:0px;
+    border-bottom:0px;
+    margin-top: 20px;
+
+}
+h4{
+    margin-bottom:2px;
+    font-weight: 100;
+    font-size:14px;
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+/* body{
+    /* background-color: aqua; */
+
+/* body>form{
+    background-color: bisque;
+} */ 
+#num:hover{
+    border:2px solid orange;
+}
