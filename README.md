@@ -4,7 +4,21 @@
 <https://www.lifestylestores.com>
 
 #### About the original website :
-This (www.lifestylestores.com) is an E-commerce website.
+This (www.lifestylestores.com) is an popular E-commerce website, well-known for its beauty products and cosmetics and for their offers too.
+
+
+In the construct week, we as a team of five members works for five days and cloned some parts of the original websites.
+
+Following are the list of pages that we built :
+
+- Homepage
+- Women's product page
+- Men's product page
+- A page for displaying the products
+- A page for displaying the products details
+- Importable and Exportable components <br>
+  a) Navbar <br>
+  b) Footer
 
 
 #### Tech-Stacks used in the projects are :
