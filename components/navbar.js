@@ -16,7 +16,8 @@ function navbar(){
     </div>
 </div>
 <div id="navbar2">
-    <img src="https://i1.lmsin.net/website_images/in/logos/logo-lifestyle.svg" alt="">
+
+    <img onclick='window.location.href="index.html"' src="https://i1.lmsin.net/website_images/in/logos/logo-lifestyle.svg" alt="">
     <button onclick='window.location.href="women page.html"' >Women</button>
     <button onclick='window.location.href="mens.html"'>Mens</button>
     <button>Kids</button>
