@@ -19,6 +19,9 @@ Following are the list of pages that we built :
 - Importable and Exportable components <br>
   a) Navbar <br>
   b) Footer
+- Sign-in / Sign-up page
+- Cart page
+- Checkout page
 
 
 #### Tech-Stacks used in the projects are :
