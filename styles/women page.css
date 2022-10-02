@@ -204,6 +204,9 @@ body {
 #ashpdept{
   cursor: pointer;
 }
+#anavbar{
+  margin-left: 300px;
+}
 @media only screen and (max-width: 992px) {
   #aslideshow1,
   #avaluepicks,
@@ -243,6 +246,9 @@ body {
   }
   .aonlineh{
     margin-top: 0px;
+  }
+  #anavbar{
+    display: none;
   }
 }
 @media only screen and (max-width: 670px) {
@@ -284,5 +290,8 @@ body {
   }
   .aonlineh{
     margin-top: 0px;
+  }
+  #anavbar{
+    display: none;
   }
 }
