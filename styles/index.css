@@ -37,6 +37,9 @@
     color: #929391;
     margin-top: -55px;
 }
+#anavbar{
+    margin-left: 300px;
+}
 @media only screen and (max-width: 992px) {
     #acontainer{
         display: grid;
@@ -45,10 +48,16 @@
         margin: auto;
         gap: 20px;
     }
+    #anavbar{
+        display: none;
+    }
 }
 @media only screen and (max-width: 670px) {
     #acontainer{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+    }
+    #anavbar{
+        display: none;
     }
 }
