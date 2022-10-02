@@ -25,6 +25,18 @@ function navbar(){
     <input type="search" placeholder="What are you looking for?">
     <p>More |</p>
     <p>Sign up/Sign In</p>
+    <a href="cart.html">
+    <div id="id1">
+    <img src="https://img.freepik.com/free-psd/shopping-cart-3d-render-transparent-psd-file_460848-6771.jpg?size=626&ext=jpg&ga=GA1.2.609678927.1659701982" alt="">
+    </div>
+    </a>
+   
+    
+    
+  
+    
+    
+   
 </div>
 <div id="navbar3">
     <h4>Buy 1 Get 1 Free on Best of our Brands></h4>
