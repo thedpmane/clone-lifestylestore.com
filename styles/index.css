@@ -37,9 +37,6 @@
     color: #929391;
     margin-top: -55px;
 }
-#anavbar{
-    margin-left: 300px;
-}
 @media only screen and (max-width: 992px) {
     #acontainer{
         display: grid;
@@ -60,4 +57,8 @@
     #anavbar{
         display: none;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c14043fbef7e676fcd8523f39d6dd81ec5f5ef1e

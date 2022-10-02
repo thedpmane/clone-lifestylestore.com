@@ -30,6 +30,7 @@ let last=document.getElementById("last").value
     let p1= new obj(Name,last)
     // console.log(Name,last)
     localStorage.setItem("User_data", JSON.stringify(p1))
+    window.location.href="/index.html"
 }
 
 
