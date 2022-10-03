@@ -14,7 +14,7 @@ let laxmidiv = document.getElementById("sdiv1");
 //console.log(lsd);
 let total = 0;
 const append = () => {
-  lsd.forEach((el) => {
+  lsd.forEach((el,i) => {
     let deach_product = document.createElement("div");
     deach_product.className = "each_product";
 
@@ -64,6 +64,12 @@ const append = () => {
 
     let btn1 = document.createElement("button");
     btn1.innerHTML = "Remove";
+    btn1.addEventListener("click", () => {
+      remove(i)
+     
+    })
+
+
     let btn2 = document.createElement("button");
     btn2.innerHTML = "Move to favourites";
     dfooterbtn.append(btn1, btn2);
@@ -92,3 +98,11 @@ const append = () => {
   total_priceshow.innerHTML = "₹" + total;
 };
 append();
+function remove(index) {
+  let newdata = lsd.filter(function (el, i) {
+    return i!==index 
+  })
+  localStorage.setItem("cart_product_info", JSON.stringify(newdata));
+  append()
+  location.reload()
+}
