@@ -7,7 +7,7 @@
 This (www.lifestylestores.com) is an popular E-commerce website, well-known for its beauty products and cosmetics and for their offers too.
 
 
-In the construct week, we as a team of five members works for five days and cloned some parts of the original websites.
+In the construct week, we as a team of five members works for five days and cloned some parts of the original websites check this out here <https://glittery-flan-653bb9.netlify.app/> .
 
 Following are the list of pages that we built :
 
