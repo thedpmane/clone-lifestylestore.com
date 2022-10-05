@@ -1,0 +1,186 @@
+body {
+    font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji";
+  }
+  #atopss1 {
+    background-color: #faa619;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+  }
+  #atopss1 > h2 {
+    padding: 10px 0px;
+    font-size: 16px;
+  }
+  #aslideshow1{
+    width: 1276px;
+    margin: auto;
+    transition: 3s;
+    margin-bottom: 100px;
+    cursor: pointer;
+  }
+  #abrands {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  #abrands > div > h4 {
+    margin-top: 0px;
+    font-size: 14px;
+  }
+  #abigbrands,
+  #ashopcat,
+  #atoptre,
+  #atoppik,
+  #aban,
+  #aloved,
+  #atrend,
+  #ahigh,
+  #atreset,
+  #aactwar,
+  #adeal,
+  #amstlvd,
+  #aess,
+  #abanner1,
+  #afsale{
+    width: 1276px;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #929391;
+  }
+  #ashopbydept {
+    width: 1276px;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 40px;  
+  }
+  #shopcat{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    text-align: center;
+  }
+  #trending{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    text-align: center;
+  }
+  #ashopcat img,
+  #atoptre img,
+  #toppicks img,
+  #aloved img,
+  #atrend img,
+  #ahigh img,
+  #atreset img,
+  #aactwar img,
+  #adeal img,
+  #aloved img,
+  #aess img,
+  #abrands img,
+  #aslideshow1  img,
+  #abanner1 img,
+  #afsale img{
+    width: 100%;
+  }
+  #toppicks,
+  #mls,
+  #nct,
+  #highlights,
+  #tr,
+  #aw,
+  #deal,
+  #mlb,
+  #efy{
+    display: flex;
+    gap: 20px;
+  }
+  #abigbrands h2,
+  #ashopcat h2,
+  #atoptre h2,
+  #atoppik h2,
+  #aban h2,
+  #aloved h2,
+  #atrend h2,
+  #ahigh h2,
+  #atreset h2,
+  #aactwar h2,
+  #adeal h2,
+  #amstlvd h2,
+  #aess h2,
+  #abanner1 h2,
+  #afsale h2{
+    font-size: 36px;
+  }
+  #abigbrands,
+  #ashopcat,
+  #atoptre,
+  #atoppik,
+  #aban,
+  #aloved,
+  #atrend,
+  #ahigh,
+  #atreset,
+  #aactwar,
+  #adeal,
+  #amstlvd,
+  #aess,
+  #abanner1,
+  #afsale{
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 992px) {
+    #abigbrands,
+    #ashopcat,
+    #atoptre,
+    #atoppik,
+    #aban,
+    #aloved,
+    #atrend,
+    #ahigh,
+    #atreset,
+    #aactwar,
+    #adeal,
+    #amstlvd,
+    #aess,
+    #abanner1,
+    #afsale{
+      width: 600px;
+    }
+    #shopcat{
+      grid-template-columns: repeat(3, 1fr);
+    }
+    #trending{
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media only screen and (max-width: 670px) {
+    #abigbrands,
+    #ashopcat,
+    #atoptre,
+    #atoppik,
+    #aban,
+    #aloved,
+    #atrend,
+    #ahigh,
+    #atreset,
+    #aactwar,
+    #adeal,
+    #amstlvd,
+    #aess,
+    #abanner1,
+    #afsale{
+      width: 400px;
+    }
+    #shopcat{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    #trending{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
