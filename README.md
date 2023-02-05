@@ -44,8 +44,8 @@
 It’s Group project where we've used HTML CSS and JS stack to make the Lifestylestore with our creativity along with frontend and backend integration
 its Fully Responsive e-commerce web application that allows you to buy shoes & clothes online. It has a variety of categories, just visit the product listing page and you will see all the products, apply filters as per your need and in just a few clicks you can buy any products from the website. This project is just for educational purpose.
 
-![Screenshot (762)](https://user-images.githubusercontent.com/92500563/213981682-106a05ca-1f41-4b97-ac6d-597f82d224f0.png)
 
+<img src="/images/readmeImages/1.png" alt='hompage'/>
 
 
 <br />
@@ -79,11 +79,17 @@ its Fully Responsive e-commerce web application that allows you to buy shoes & c
 
 ## Glimpses of Lifestyle.com 🙈 :
 ## Some Pages of Our Website 
-![Screenshot (763)](https://user-images.githubusercontent.com/92500563/213993873-eeb57a30-e0f6-483a-a9b7-ab6a740b7686.png)
+<img src="/images/readmeImages/2.png" alt='hompage'/>
 <br/><br/>
-![Screenshot (765)](https://user-images.githubusercontent.com/92500563/213995227-7d9ad9da-78a8-4e9a-8b02-32f1a76aabe8.png)
+<img src="/images/readmeImages/3.png" alt='hompage'/>
 <br/><br/>
-![Screenshot (766)](https://user-images.githubusercontent.com/92500563/213995232-2120a7fe-3636-4268-b04b-17384347b5f7.png)
+<img src="/images/readmeImages/4.png" alt='hompage'/>
+<br/><br/>
+<img src="/images/readmeImages/5.png" alt='hompage'/>
+<br/><br/>
+<img src="/images/readmeImages/6.png" alt='hompage'/>
+<br/><br/>
+<img src="/images/readmeImages/7.png" alt='hompage'/>
 
 <br/> 
 <br/>
