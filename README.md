@@ -21,7 +21,7 @@
 <h4 align="center">Deployed On:</h4>
 
 <p align="center">
-  <img src="[https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNoyBaXQ1pVz7bcoIX-WSHmA9pWT2eIfUNnpdT01wUmI8lIIrRl1U_3ehGbOe6Gs5FbHw&usqp=CAU)" alt="vercel" />
+  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNoyBaXQ1pVz7bcoIX-WSHmA9pWT2eIfUNnpdT01wUmI8lIIrRl1U_3ehGbOe6Gs5FbHw&usqp=CAU)" alt="vercel" />
 </p>
 
 
