@@ -21,7 +21,7 @@
 <h4 align="center">Deployed On:</h4>
 
 <p align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNoyBaXQ1pVz7bcoIX-WSHmA9pWT2eIfUNnpdT01wUmI8lIIrRl1U_3ehGbOe6Gs5FbHw&usqp=CAU" alt="vercel" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Vercel_logo_black.svg/2560px-Vercel_logo_black.svg.png" alt="vercel" />
 </p>
 
 
