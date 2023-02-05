@@ -77,7 +77,7 @@ its Fully Responsive e-commerce web application that allows you to buy shoes & c
 
 <br />
 
-## Glimpses of PistonService.com 🙈 :
+## Glimpses of Lifestyle.com 🙈 :
 ## Some Pages of Our Website 
 ![Screenshot (763)](https://user-images.githubusercontent.com/92500563/213993873-eeb57a30-e0f6-483a-a9b7-ab6a740b7686.png)
 <br/><br/>
