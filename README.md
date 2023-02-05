@@ -12,8 +12,6 @@
 <h4 align="center">Frontend:</h4>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Html-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="reactjs" />
-  <img src="https://img.shields.io/badge/Css-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="redux" />
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="javascript" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5" />
@@ -23,7 +21,7 @@
 <h4 align="center">Deployed On:</h4>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="vercel" />
+  <img src="[https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNoyBaXQ1pVz7bcoIX-WSHmA9pWT2eIfUNnpdT01wUmI8lIIrRl1U_3ehGbOe6Gs5FbHw&usqp=CAU)" alt="vercel" />
 </p>
 
 
